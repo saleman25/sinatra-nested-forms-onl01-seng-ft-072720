@@ -5,7 +5,7 @@ class Pirate
   @@all = []
   
   def initialize(name, weight, height)
-    @name = name 
+    @name = args[:name] 
     @weight = weight
     @height = height 
     @@all << self
